@@ -5,11 +5,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TransferenciaComponent } from './transferencia/transferencia.component';
 import { FormsModule } from '@angular/forms';
+import { ExtratoComponent } from './extrato/extrato.component';
 
 @NgModule({
-  declarations: [
+  declarations: [	
     AppComponent,
-      TransferenciaComponent
+      TransferenciaComponent,
+      ExtratoComponent
    ],
   imports: [
     BrowserModule,
