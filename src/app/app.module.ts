@@ -22,7 +22,8 @@ registerLocaleData(localePt, 'pt');
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    AppRoutingModule
   ],
   providers: [
     { provide: LOCALE_ID, useValue: 'pt'},

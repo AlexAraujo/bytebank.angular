@@ -5,14 +5,10 @@ import { TransferenciasService } from './services/transferencias.service';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
   title = 'bytebank';
 
   constructor(private service: TransferenciasService) {}
-
-  transferir($event: any) {
-    this.service.adicionar($event);
-  }
 }
